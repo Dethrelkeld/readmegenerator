@@ -5,10 +5,14 @@ function fixLicense (license){
 }
 
 
-
+// function that generates the markdown in the readme
 function generateMarkdown(data) {
   return `# ${data.projName}
  ### by ${data.gitUser}
+ ${data.projLink}
+ ![screenshot](${data.screenLink})
+
+
  ![license badge](https://img.shields.io/badge/License-${fixLicense(data.license)}-blue)
  
 `;

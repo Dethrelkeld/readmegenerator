@@ -1,4 +1,8 @@
-# thr
- ### by poi
- ![license badge](https://img.shields.io/badge/License-Apache%202.0-blue)
+# Thing
+ ### by Dave
+ https://placeholder.com
+ ![screenshot](./weather3.PNG)
+
+
+ ![license badge](https://img.shields.io/badge/License-MIT-blue)
  

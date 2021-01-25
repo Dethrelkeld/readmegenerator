@@ -1,3 +1,4 @@
+// variables to make the Node modules work
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
@@ -6,24 +7,39 @@ const generateMarkdown = require('./utils/generateMarkdown')
 
 
 
-// array of questions for user
+// array of questions for the user
 const questions = [
     {
         type: "input",
         message: "What is your github Username",
-        name: "gitUser"
+        name: "gitUser",
     },
     {
         type: "input",
         message: "What is your project name?",
-        name: "projName"
+        name: "projName",
     },
     {
         type: "list",
         message: "What type of license are you using for this project?",
         name: "license",
         choices: ["MIT", "Apache 2.0", "GPL"]
-    }    //one question per readme info
+    },
+    {
+        type: "input",
+        message: "What is the url for your page?",
+        name: "projLink",
+    },
+    {
+        type: "input",
+        message: "What is the local relative path to your screenshot?",
+        name: "screenLink",
+    },
+
+    
+
+    
+    //one question per readme info
 ];
 
 // function to write README file
