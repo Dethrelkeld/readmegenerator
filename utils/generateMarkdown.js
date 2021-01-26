@@ -11,6 +11,7 @@ function generateMarkdown(data) {
  ### by ${data.gitUser}
  ${data.projLink}
  ![screenshot](${data.screenLink})
+ > ${data.description}
 
 
  ![license badge](https://img.shields.io/badge/License-${fixLicense(data.license)}-blue)

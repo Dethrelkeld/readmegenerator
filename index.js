@@ -35,11 +35,16 @@ const questions = [
         message: "What is the local relative path to your screenshot?",
         name: "screenLink",
     },
+    {
+        type: "input",
+        message: "Please type a short description of your project",
+        name: "description",
+    },
 
     
 
     
-    //one question per readme info
+
 ];
 
 // function to write README file
